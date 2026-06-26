@@ -41,7 +41,26 @@
     </figure>
   </section>
 
-  <!-- 3 — DEFINITION -->
+  <!-- 3 — ROADMAP -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Roadmap</span></div>
+    <h2 class="head">What this report will cover</h2>
+    <ul class="points">
+      <li><b>What</b> an experimental design is</li>
+      <li><b>The RCT</b> &mdash; the strongest form, step by step</li>
+      <li><b>Its building blocks</b> &mdash; randomizing, control, pre&ndash;post</li>
+      <li><b>Validity</b>, strengths, limits, and when to use it</li>
+    </ul>
+  </section>
+
+  <!-- 4 — THE QUESTION IT ANSWERS -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">The problem</span></div>
+    <h2 class="head">The question it answers</h2>
+    <div class="lead">Did <span class="hl">our program</span> cause the improvement &mdash; or would it have happened anyway? Experimental design is how we tell the difference.</div>
+  </section>
+
+  <!-- 5 — DEFINITION -->
   <section class="slide">
     <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">The construct</span></div>
     <h2 class="head"><span class="small">Defining the construct</span>What an experimental design is</h2>
@@ -50,10 +69,18 @@
     </div>
   </section>
 
-  <!-- 4 — RCT DIAGRAM -->
-  <section class="slide">
+  <!-- 6 — SECTION: THE RCT -->
+  <section class="slide section">
     <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">The gold standard</span></div>
-    <h2 class="head">The randomized controlled trial (RCT)</h2>
+    <div class="num">5.1</div>
+    <div class="kicker">The heart of the topic</div>
+    <h2>The Randomized Controlled Trial</h2>
+  </section>
+
+  <!-- 7 — RCT DIAGRAM -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">RCT</span></div>
+    <h2 class="head">How an RCT works</h2>
     <figure class="diagram">
       <svg viewBox="0 0 1000 260" role="img" aria-label="RCT flow">
         <rect class="dg-box-b" x="30" y="95" width="200" height="70" rx="8"/>
@@ -76,39 +103,113 @@
     </figure>
   </section>
 
-  <!-- 5 — KEY ELEMENTS -->
+  <!-- 8 — WHY RANDOM -->
   <section class="slide">
-    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Building blocks</span></div>
-    <h2 class="head"><span class="small">The heart of the topic</span>Three building blocks</h2>
-    <ul class="points">
-      <li><b>Randomized</b><span class="plain">People are placed into groups by chance, removing hidden bias.</span></li>
-      <li><b>Control group</b><span class="plain">A comparison group that does not receive the program.</span></li>
-      <li><b>Pre&ndash;post measures</b><span class="plain">Measure before and after, so change can be seen clearly.</span></li>
-    </ul>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Building block 1</span></div>
+    <h2 class="head"><span class="small">Building block 1</span>Why assign at random?</h2>
+    <div class="lead">Random assignment spreads every hidden difference &mdash; age, ability, background &mdash; <span class="hl">evenly across both groups</span>, so the only real difference left is the program itself.</div>
   </section>
 
-  <!-- 6 — VALIDITY DEFINE -->
+  <!-- 9 — THE CONTROL GROUP -->
   <section class="slide">
-    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Trustworthiness</span></div>
-    <h2 class="head">Two kinds of validity</h2>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Building block 2</span></div>
+    <h2 class="head"><span class="small">Building block 2</span>The control group</h2>
     <div class="define">
-      <div class="term"><span class="word">Internal</span><span class="gloss">Are we sure the <b>program</b> caused the change &mdash; and not something else?<br><span style="color:var(--muted);font-style:italic;font-size:.85em">Plain terms: is the result real and not a fluke?</span></span></div>
-      <div class="term"><span class="word">External</span><span class="gloss">Would the result <b>hold true elsewhere</b>, with other people or places?<br><span style="color:var(--muted);font-style:italic;font-size:.85em">Plain terms: does it generalize beyond this one study?</span></span></div>
+      <div class="term"><span class="word">Control group</span><span class="gloss">A comparison group that <b>does not receive the program</b>, kept alongside the treatment group.<br><span style="color:var(--muted);font-style:italic;font-size:.9em">It shows what would have happened without the program &mdash; the "what if we did nothing" picture.</span></span></div>
     </div>
   </section>
 
-  <!-- 7 — WHY RCT IS STRONG -->
+  <!-- 10 — PRE-POST -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Building block 3</span></div>
+    <h2 class="head"><span class="small">Building block 3</span>Pre&ndash;post measurement</h2>
+    <figure class="diagram">
+      <svg viewBox="0 0 1000 200" role="img" aria-label="Pre and post">
+        <rect class="dg-box-b" x="80" y="70" width="220" height="70" rx="8"/>
+        <text class="dg-b" x="190" y="103" text-anchor="middle" font-size="18" font-weight="700">Measure BEFORE</text>
+        <text class="dg-sub" x="190" y="125" text-anchor="middle" font-size="13">the starting point</text>
+        <rect class="dg-box-a" x="390" y="70" width="220" height="70" rx="8"/>
+        <text class="dg-a" x="500" y="105" text-anchor="middle" font-size="17" font-weight="700">Program runs</text>
+        <rect class="dg-box-b" x="700" y="70" width="220" height="70" rx="8"/>
+        <text class="dg-b" x="810" y="103" text-anchor="middle" font-size="18" font-weight="700">Measure AFTER</text>
+        <text class="dg-sub" x="810" y="125" text-anchor="middle" font-size="13">the change</text>
+        <path class="dg-arrow" d="M302 105 H388"/><polygon class="dg-arrow-head" points="388,105 376,98 376,112"/>
+        <path class="dg-arrow" d="M612 105 H698"/><polygon class="dg-arrow-head" points="698,105 686,98 686,112"/>
+      </svg>
+      <figcaption>Measuring before and after lets us see the change clearly.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 11 — WORKED EXAMPLE -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Worked example</span></div>
+    <h2 class="head">A school example</h2>
+    <div class="card"><span class="tag">Testing a reading program</span>Take 100 pupils. Randomly split them: 50 join the new reading program, 50 keep the usual lessons. Test everyone before and after. If the program group improves <b>more</b>, the program likely caused it.</div>
+  </section>
+
+  <!-- 12 — SECTION: VALIDITY -->
+  <section class="slide section">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Trustworthiness</span></div>
+    <div class="num">5.1</div>
+    <div class="kicker">Judging the study</div>
+    <h2>Internal &amp; External Validity</h2>
+  </section>
+
+  <!-- 13 — INTERNAL VALIDITY -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Validity</span></div>
+    <h2 class="head"><span class="small">Internal validity</span>Is the result real?</h2>
+    <div class="lead">Are we sure the <span class="hl">program</span> caused the change, and not something else? Strong internal validity means the result is real, not a fluke.</div>
+  </section>
+
+  <!-- 14 — EXTERNAL VALIDITY -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Validity</span></div>
+    <h2 class="head"><span class="small">External validity</span>Does it hold elsewhere?</h2>
+    <div class="lead">Would the result <span class="hl">hold true elsewhere</span>, with other people or in other places? Strong external validity means it generalizes beyond this one study.</div>
+  </section>
+
+  <!-- 15 — THREATS -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Watch out</span></div>
+    <h2 class="head">Things that can weaken validity</h2>
+    <ul class="points">
+      <li><b>Dropouts</b><span class="plain">People leaving the study can unbalance the groups.</span></li>
+      <li><b>Too small a sample</b><span class="plain">A few people can't represent everyone.</span></li>
+      <li><b>Spillover</b><span class="plain">The control group accidentally gets some of the program.</span></li>
+    </ul>
+  </section>
+
+  <!-- 16 — WHY IT IS STRONGEST -->
   <section class="slide">
     <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Significance</span></div>
     <h2 class="head">Why this design is the strongest</h2>
     <ul class="points">
       <li><b>Isolates the cause</b><span class="plain">The control group rules out other explanations.</span></li>
-      <li><b>Removes bias</b><span class="plain">Random assignment keeps the groups fair and comparable.</span></li>
+      <li><b>Removes bias</b><span class="plain">Random assignment keeps the groups fair.</span></li>
       <li><b>Trusted evidence</b><span class="plain">Its results carry the most weight in evaluation.</span></li>
     </ul>
   </section>
 
-  <!-- 8 — RECAP -->
+  <!-- 17 — LIMITS -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Honest limits</span></div>
+    <h2 class="head">When it is hard to use</h2>
+    <div class="card"><span class="tag">Practical &amp; ethical limits</span>Sometimes we <b>cannot</b> randomly withhold a program &mdash; it may be unfair to deny help, or simply impractical. In those cases researchers turn to other designs (5.2 onward).</div>
+  </section>
+
+  <!-- 18 — WHEN TO USE -->
+  <section class="slide">
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">In practice</span></div>
+    <h2 class="head">When to choose an experimental design</h2>
+    <ul class="points">
+      <li><b>You need proof of cause</b><span class="plain">Not just that two things move together.</span></li>
+      <li><b>You can assign at random</b><span class="plain">Fairly and ethically.</span></li>
+      <li><b>The stakes are high</b><span class="plain">A big decision rests on the evidence.</span></li>
+    </ul>
+  </section>
+
+  <!-- 19 — RECAP -->
   <section class="slide">
     <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Key takeaways</span></div>
     <h2 class="head">Key takeaways</h2>
@@ -120,7 +221,7 @@
     </div>
   </section>
 
-  <!-- 9 — CLOSE -->
+  <!-- 20 — CLOSE -->
   <section class="slide title">
     <div class="program">714 &middot; Chapter 5 &middot; Topic 5.1</div>
     <h1>Thank you</h1>
