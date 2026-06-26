@@ -1,0 +1,184 @@
+/* ============================================================
+   EdD Report Decks — Academic Editorial design system
+   Deep ink + warm gold, serif display, refined gridwork.
+   PhD-level rigor, layman-friendly, BIG & high-contrast.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --ink:#0b1f3a;
+  --ink-2:#11294b;
+  --ink-3:#16335c;
+  --paper:#f5efe3;
+  --gold:#e8b54b;
+  --gold-soft:#f1cd82;
+  --teal:#5ecbc0;
+  --rose:#e8896b;
+  --text:#f3f1ec;
+  --muted:#b9c6dc;
+  --line:rgba(232,181,75,0.28);
+  --card:rgba(255,255,255,0.045);
+  --card-line:rgba(255,255,255,0.12);
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Inter","Segoe UI",Arial,sans-serif;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:var(--sans);
+  background:var(--ink);
+  color:var(--text);
+  overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+.deck{height:100vh;width:100vw;position:relative;overflow:hidden}
+
+/* faint engraved grid on every slide */
+.slide{
+  position:absolute;inset:0;
+  display:none;
+  flex-direction:column;
+  justify-content:center;
+  padding:7vh 8vw;
+  background:
+    radial-gradient(120% 90% at 80% -10%, var(--ink-3) 0%, transparent 55%),
+    linear-gradient(150deg, var(--ink) 0%, var(--ink-2) 100%);
+}
+.slide::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size:64px 64px;
+  mask-image:radial-gradient(120% 120% at 50% 40%, #000 55%, transparent 100%);
+}
+.slide.active{display:flex;animation:fade .45s cubic-bezier(.2,.7,.2,1)}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.slide > *{position:relative;z-index:1}
+
+/* running header: subject code + module */
+.kolophon{
+  position:absolute;top:4.5vh;left:8vw;right:8vw;z-index:2;
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--sans);font-size:1.5vw;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--gold);
+}
+.kolophon .right{color:var(--muted);font-weight:500;letter-spacing:.12em}
+.kolophon::after{content:"";position:absolute;left:0;right:0;bottom:-1.4vh;height:1px;background:var(--line)}
+
+/* ---------- Title slide ---------- */
+.slide.title{justify-content:center}
+.slide.title .program{font-family:var(--sans);font-size:1.7vw;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--teal);margin-bottom:3.5vh}
+.slide.title h1{font-family:var(--serif);font-weight:600;font-size:6.4vw;line-height:1.03;color:var(--gold);letter-spacing:-0.01em;max-width:88%}
+.slide.title .rule{width:11vw;height:4px;background:linear-gradient(90deg,var(--gold),transparent);margin:4vh 0 3.5vh}
+.slide.title .sub{font-family:var(--serif);font-style:italic;font-weight:500;font-size:2.7vw;color:var(--text);max-width:74%;line-height:1.3}
+.slide.title .by{margin-top:6vh;font-size:1.9vw;color:var(--muted);font-weight:500}
+.slide.title .by b{color:var(--text);font-weight:600}
+
+/* ---------- Section divider ---------- */
+.slide.section{justify-content:center}
+.slide.section .num{font-family:var(--serif);font-size:9vw;font-weight:700;color:rgba(232,181,75,0.16);line-height:.8;margin-bottom:1vh}
+.slide.section .kicker{font-family:var(--sans);font-size:1.7vw;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:2vh}
+.slide.section h2{font-family:var(--serif);font-weight:600;font-size:5.6vw;color:var(--gold);line-height:1.05;max-width:84%}
+
+/* ---------- Content slide ---------- */
+.slide h2.head{font-family:var(--serif);font-weight:600;font-size:4.4vw;color:var(--gold);line-height:1.06;margin-bottom:4.5vh;letter-spacing:-0.01em}
+.slide h2.head .small{display:block;font-family:var(--sans);font-size:1.5vw;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:1.4vh}
+
+.lead{font-family:var(--serif);font-size:3vw;line-height:1.28;color:var(--text);max-width:90%}
+.lead .hl{color:var(--gold)}
+
+/* term + plain-language pairing — the PhD/layman device */
+.define{display:flex;flex-direction:column;gap:2.4vh}
+.term{display:flex;gap:1.6vw;align-items:baseline}
+.term .word{font-family:var(--serif);font-weight:700;font-size:2.5vw;color:var(--gold);white-space:nowrap}
+.term .gloss{font-size:2.05vw;line-height:1.32;color:var(--text)}
+.term .gloss b{color:var(--teal);font-weight:600}
+
+ul.points{list-style:none;display:flex;flex-direction:column;gap:2.7vh;max-width:92%}
+ul.points li{font-size:2.25vw;line-height:1.32;padding-left:1.5em;position:relative;color:var(--text)}
+ul.points li::before{content:"";position:absolute;left:0;top:.55em;width:.7em;height:.7em;border:2px solid var(--teal);transform:rotate(45deg)}
+ul.points li b{color:var(--gold);font-weight:600}
+ul.points li .plain{display:block;font-size:.82em;color:var(--muted);margin-top:.5vh;font-style:italic}
+
+/* callout card / example */
+.card{
+  background:var(--card);border:1px solid var(--card-line);border-radius:6px;
+  padding:3.4vh 3vw;font-size:2.2vw;line-height:1.36;
+  border-left:6px solid var(--gold);max-width:88%;
+}
+.card .tag{display:block;font-family:var(--sans);font-size:1.3vw;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:1.4vh}
+.card b{color:var(--gold)}
+
+/* two-column layout: text + diagram */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:4vw;align-items:center}
+.split.wide-right{grid-template-columns:0.85fr 1.15fr}
+.split .col-text .lead{font-size:2.5vw;max-width:100%}
+.split figure{margin:0}
+.split figcaption{margin-top:2vh;font-size:1.5vw;color:var(--muted);font-style:italic;text-align:center}
+
+/* generic figure caption under full-width diagrams */
+figure.diagram{margin:2vh 0 0}
+figure.diagram svg{width:100%;height:auto;display:block}
+figure.diagram figcaption{margin-top:2.2vh;font-size:1.6vw;color:var(--muted);font-style:italic;text-align:center}
+
+/* key-takeaways grid */
+.recap{display:grid;grid-template-columns:1fr 1fr;gap:2.6vh 3vw;max-width:94%}
+.recap .item{border-left:4px solid var(--teal);padding-left:1.4vw}
+.recap .item .k{font-family:var(--serif);font-weight:700;font-size:2.05vw;color:var(--gold);margin-bottom:.6vh}
+.recap .item .v{font-size:1.7vw;line-height:1.3;color:var(--muted)}
+
+/* SVG diagram shared tokens (used inline) */
+.dg-box{fill:var(--card);stroke:var(--card-line);stroke-width:1.5}
+.dg-box-gold{fill:rgba(232,181,75,0.12);stroke:var(--gold);stroke-width:2}
+.dg-box-teal{fill:rgba(94,203,192,0.12);stroke:var(--teal);stroke-width:2}
+.dg-label{fill:var(--text);font-family:"Inter",sans-serif;font-weight:600}
+.dg-sub{fill:var(--muted);font-family:"Inter",sans-serif;font-weight:400}
+.dg-gold{fill:var(--gold)}
+.dg-teal{fill:var(--teal)}
+.dg-arrow{stroke:var(--gold);stroke-width:2.5;fill:none}
+.dg-arrow-head{fill:var(--gold)}
+
+/* progress + chrome */
+.bar{position:absolute;bottom:0;left:0;height:5px;background:linear-gradient(90deg,var(--gold),var(--gold-soft));transition:width .35s;z-index:3}
+.pageno{position:absolute;bottom:3.4vh;right:8vw;font-size:1.4vw;color:var(--muted);font-family:var(--serif);font-style:italic;z-index:2}
+.nav{position:absolute;bottom:3.4vh;left:8vw;font-size:1.25vw;color:var(--muted);opacity:.65;z-index:2;letter-spacing:.08em}
+.tap{position:absolute;top:0;width:28%;height:100%;cursor:pointer;z-index:5}
+.tap.left{left:0}.tap.right{right:0}
+
+/* ===================== PHONE / PORTRAIT ===================== */
+@media (max-width: 860px), (orientation: portrait){
+  .slide{padding:11vh 7vw 9vh}
+  .kolophon{top:4vh;font-size:3vw}
+  .slide.title .program{font-size:3.4vw}
+  .slide.title h1{font-size:10.5vw;max-width:100%}
+  .slide.title .sub{font-size:5vw;max-width:96%}
+  .slide.title .by{font-size:3.8vw}
+  .slide.title .rule{width:24vw}
+  .slide.section .num{font-size:20vw}
+  .slide.section .kicker{font-size:3.6vw}
+  .slide.section h2{font-size:10vw;max-width:100%}
+  .slide h2.head{font-size:8vw}
+  .slide h2.head .small{font-size:3.2vw}
+  .lead{font-size:6vw;max-width:100%}
+  .define{gap:3vh}
+  .term{flex-direction:column;gap:.6vh}
+  .term .word{font-size:6vw}
+  .term .gloss{font-size:4.7vw}
+  ul.points{max-width:100%;gap:2.6vh}
+  ul.points li{font-size:5.4vw}
+  ul.points li::before{top:.45em}
+  .card{font-size:5vw;max-width:100%;padding:3vh 5vw}
+  .card .tag{font-size:3vw}
+  /* stack split layouts on phones */
+  .split, .split.wide-right{grid-template-columns:1fr;gap:3.5vh}
+  .split .col-text .lead{font-size:6vw}
+  .split figcaption, figure.diagram figcaption{font-size:3.4vw}
+  .recap{grid-template-columns:1fr;gap:2.2vh}
+  .recap .item .k{font-size:5vw}
+  .recap .item .v{font-size:4vw}
+  .pageno{font-size:3vw;bottom:3vh}
+  .nav{font-size:2.8vw;bottom:3vh}
+}
