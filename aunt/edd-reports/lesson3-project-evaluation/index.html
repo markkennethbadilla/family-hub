@@ -3,271 +3,129 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EdD 714 — Quantitative Research Methods in Project Evaluation</title>
+<title>714 — 5.1 Experimental Designs</title>
 <link rel="stylesheet" href="../slides.css">
 </head>
-<body>
+<body data-theme="research">
 <div class="deck">
 
   <!-- 1 — TITLE -->
   <section class="slide title active">
     <div class="program">Cebu Technological University &middot; Doctor of Education (EdD)</div>
-    <h1>Quantitative Research Methods in Project Evaluation</h1>
+    <h1>Experimental Designs</h1>
     <div class="rule"></div>
-    <div class="sub">Using numbers to judge whether a project truly works</div>
-    <div class="by">Subject Code <b>EdD 714</b> &nbsp;&middot;&nbsp; Project Development &amp; Evaluation &nbsp;&middot;&nbsp; Chapter 5</div>
-    <div class="by" style="margin-top:1.5vh;font-size:1.6vw">Reporter: <b>Rosemarie Mayet Rizon</b> &middot; Cebu Technological University</div>
+    <div class="sub">Testing whether a program truly causes the change we observe</div>
+    <div class="by">Subject <b>714</b> &nbsp;&middot;&nbsp; Project Development &amp; Evaluation &nbsp;&middot;&nbsp; Chapter 5 &middot; Topic 5.1</div>
+    <div class="by" style="margin-top:1.5vh;font-size:1.6vw">Reporter: <b>Rosemarie Mayet Rizon</b></div>
   </section>
 
-  <!-- 2 — WHAT IS QUANTITATIVE -->
+  <!-- 2 — WHERE 5.1 SITS -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Project Development &amp; Evaluation</span></div>
-    <h2 class="head"><span class="small">Orientation</span>What "quantitative" means</h2>
-    <div class="lead">Research that relies on <span class="hl">numbers, measurement, and counting</span> rather than opinions alone &mdash; it answers "how many?" and "how much?", and tests whether results are real or merely chance.</div>
-  </section>
-
-  <!-- 3 — ROADMAP -->
-  <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Roadmap</span></div>
-    <h2 class="head">Five methods we will cover</h2>
+    <div class="kolophon"><span>714 &middot; Chapter 5</span><span class="right">Topic 5.1</span></div>
+    <h2 class="head"><span class="small">Orientation</span>Where my topic sits</h2>
     <figure class="diagram">
-      <svg viewBox="0 0 1000 200" role="img" aria-label="Five methods">
-        <g font-family="Inter,sans-serif">
-          <rect class="dg-box-gold" x="15"  y="50" width="180" height="110" rx="6"/>
-          <rect class="dg-box-teal" x="210" y="50" width="180" height="110" rx="6"/>
-          <rect class="dg-box-gold" x="405" y="50" width="180" height="110" rx="6"/>
-          <rect class="dg-box-teal" x="600" y="50" width="180" height="110" rx="6"/>
-          <rect class="dg-box-gold" x="795" y="50" width="190" height="110" rx="6"/>
-          <text class="dg-gold" x="105" y="92"  text-anchor="middle" font-size="20" font-weight="700">5.1</text>
-          <text class="dg-teal" x="300" y="92"  text-anchor="middle" font-size="20" font-weight="700">5.2</text>
-          <text class="dg-gold" x="495" y="92"  text-anchor="middle" font-size="20" font-weight="700">5.3</text>
-          <text class="dg-teal" x="690" y="92"  text-anchor="middle" font-size="20" font-weight="700">5.4</text>
-          <text class="dg-gold" x="890" y="92"  text-anchor="middle" font-size="20" font-weight="700">5.5</text>
-          <text class="dg-sub" x="105" y="128" text-anchor="middle" font-size="15">Experiments</text>
-          <text class="dg-sub" x="300" y="128" text-anchor="middle" font-size="15">Quasi-experiments</text>
-          <text class="dg-sub" x="495" y="128" text-anchor="middle" font-size="15">Surveys</text>
-          <text class="dg-sub" x="690" y="128" text-anchor="middle" font-size="15">Statistics</text>
-          <text class="dg-sub" x="890" y="128" text-anchor="middle" font-size="15">Visualization</text>
-        </g>
+      <svg viewBox="0 0 1000 250" role="img" aria-label="Chapter 5 map, focus on 5.1">
+        <rect class="dg-box-a" x="40"  y="60" width="280" height="100" rx="8"/>
+        <text class="dg-a" x="180" y="100" text-anchor="middle" font-size="20" font-weight="700">5.1 Experimental</text>
+        <text class="dg-sub" x="180" y="130" text-anchor="middle" font-size="15">designs &mdash; my focus</text>
+        <rect class="dg-box" x="350" y="68" width="150" height="84" rx="8" opacity="0.5"/>
+        <text class="dg-sub" x="425" y="106" text-anchor="middle" font-size="14" font-weight="600">5.2 Quasi-exp.</text>
+        <rect class="dg-box" x="520" y="68" width="120" height="84" rx="8" opacity="0.5"/>
+        <text class="dg-sub" x="580" y="106" text-anchor="middle" font-size="14" font-weight="600">5.3 Surveys</text>
+        <rect class="dg-box" x="660" y="68" width="140" height="84" rx="8" opacity="0.5"/>
+        <text class="dg-sub" x="730" y="106" text-anchor="middle" font-size="14" font-weight="600">5.4 Statistics</text>
+        <rect class="dg-box" x="820" y="68" width="140" height="84" rx="8" opacity="0.5"/>
+        <text class="dg-sub" x="890" y="106" text-anchor="middle" font-size="14" font-weight="600">5.5 Data viz</text>
       </svg>
-      <figcaption>From the strongest test, to asking people, to making sense of the numbers.</figcaption>
+      <figcaption>Chapter 5 surveys many methods. This report covers only the first &mdash; 5.1, the strongest design for proving cause.</figcaption>
     </figure>
   </section>
 
-  <!-- 4 — SECTION 5.1 -->
-  <section class="slide section">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Section 5.1</span></div>
-    <div class="num">5.1</div>
-    <div class="kicker">The Gold Standard</div>
-    <h2>Experimental Designs</h2>
-  </section>
-
-  <!-- 5 — RCT DIAGRAM -->
+  <!-- 3 — DEFINITION -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.1 Experiments</span></div>
-    <h2 class="head"><span class="small">The fair test (RCT)</span>Split by chance, then compare</h2>
-    <figure class="diagram">
-      <svg viewBox="0 0 1000 270" role="img" aria-label="Randomized controlled trial">
-        <rect class="dg-box" x="40" y="105" width="190" height="80" rx="6"/>
-        <text class="dg-label" x="135" y="138" text-anchor="middle" font-size="19">Participants</text>
-        <text class="dg-sub" x="135" y="162" text-anchor="middle" font-size="14">split by chance</text>
-
-        <rect class="dg-box-gold" x="420" y="30" width="240" height="80" rx="6"/>
-        <text class="dg-gold" x="540" y="63" text-anchor="middle" font-size="19" font-weight="700">Treatment group</text>
-        <text class="dg-sub" x="540" y="88" text-anchor="middle" font-size="14">gets the new method</text>
-
-        <rect class="dg-box-teal" x="420" y="170" width="240" height="80" rx="6"/>
-        <text class="dg-teal" x="540" y="203" text-anchor="middle" font-size="19" font-weight="700">Control group</text>
-        <text class="dg-sub" x="540" y="228" text-anchor="middle" font-size="14">keeps the old way</text>
-
-        <rect class="dg-box" x="760" y="105" width="200" height="80" rx="6" stroke="var(--gold)"/>
-        <text class="dg-gold" x="860" y="138" text-anchor="middle" font-size="19" font-weight="700">Compare</text>
-        <text class="dg-sub" x="860" y="162" text-anchor="middle" font-size="14">results</text>
-
-        <path class="dg-arrow" d="M232 135 C320 135 330 70 418 70"/><polygon class="dg-arrow-head" points="418,70 405,64 407,78"/>
-        <path class="dg-arrow" d="M232 150 C320 150 330 210 418 210"/><polygon class="dg-arrow-head" points="418,210 407,202 405,216"/>
-        <path class="dg-arrow" d="M662 70 C730 70 740 135 758 135"/><polygon class="dg-arrow-head" points="758,135 745,129 747,143"/>
-        <path class="dg-arrow" d="M662 210 C730 210 740 150 758 150"/><polygon class="dg-arrow-head" points="758,150 747,143 745,157"/>
-      </svg>
-      <figcaption>Randomized Controlled Trial &mdash; splitting "by chance" is what makes the comparison fair.</figcaption>
-    </figure>
-  </section>
-
-  <!-- 6 — VALIDITY -->
-  <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.1 Experiments</span></div>
-    <h2 class="head">Two kinds of validity</h2>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">The construct</span></div>
+    <h2 class="head"><span class="small">Defining the construct</span>What an experimental design is</h2>
     <div class="define">
-      <div class="term"><span class="word">Internal</span><span class="gloss">Are we sure <b>our project</b> caused the change &mdash; and not something else?</span></div>
-      <div class="term"><span class="word">External</span><span class="gloss">Will the result <b>hold true for other people</b>, in other places?</span></div>
+      <div class="term"><span class="word">Experimental design</span><span class="gloss">A research method that tests cause and effect by <b>changing one thing on purpose</b> and comparing the results against a group that was left unchanged.<br><span style="color:var(--muted);font-style:italic;font-size:.9em">In plain terms: try the program on one group, not on another, and see what differs.</span></span></div>
     </div>
   </section>
 
-  <!-- 7 — SECTION 5.2 -->
-  <section class="slide section">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Section 5.2</span></div>
-    <div class="num">5.2</div>
-    <div class="kicker">When Chance Isn't Possible</div>
-    <h2>Quasi-Experimental Designs</h2>
-  </section>
-
-  <!-- 8 — QUASI EXPLAINED -->
+  <!-- 4 — RCT DIAGRAM -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.2 Quasi-experiments</span></div>
-    <h2 class="head"><span class="small">"Quasi" means "almost"</span>Comparing groups we did not randomize</h2>
-    <div class="split">
-      <div class="col-text"><div class="lead">When we <span class="hl">cannot split by chance</span>, we compare groups that already exist &mdash; and <span class="hl">match them</span> to be as similar as possible.</div></div>
-      <figure>
-        <svg viewBox="0 0 460 240" role="img" aria-label="Matched groups">
-          <rect class="dg-box-gold" x="30" y="40" width="180" height="80" rx="6"/>
-          <text class="dg-gold" x="120" y="75" text-anchor="middle" font-size="18" font-weight="700">Class A</text>
-          <text class="dg-sub" x="120" y="100" text-anchor="middle" font-size="14">new program</text>
-          <rect class="dg-box-teal" x="250" y="40" width="180" height="80" rx="6"/>
-          <text class="dg-teal" x="340" y="75" text-anchor="middle" font-size="18" font-weight="700">Class B</text>
-          <text class="dg-sub" x="340" y="100" text-anchor="middle" font-size="14">no program</text>
-          <rect class="dg-box" x="90" y="160" width="280" height="56" rx="6"/>
-          <text class="dg-label" x="230" y="194" text-anchor="middle" font-size="16">matched: age, level, background</text>
-          <path class="dg-arrow" d="M120 122 V158" stroke-width="2"/>
-          <path class="dg-arrow" d="M340 122 V158" stroke-width="2"/>
-        </svg>
-        <figcaption>Matching stands in for randomizing.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- 9 — THREATS -->
-  <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.2 Quasi-experiments</span></div>
-    <h2 class="head">Watch for threats to validity</h2>
-    <div class="card"><span class="tag">Caution</span>Because we did not split by chance, <b>other factors</b> might explain the results. We must rule these out before claiming our project caused the change.</div>
-  </section>
-
-  <!-- 10 — SECTION 5.3 -->
-  <section class="slide section">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Section 5.3</span></div>
-    <div class="num">5.3</div>
-    <div class="kicker">Asking Many People</div>
-    <h2>Surveys</h2>
-  </section>
-
-  <!-- 11 — SURVEY PIPELINE -->
-  <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.3 Surveys</span></div>
-    <h2 class="head">Designing a sound survey</h2>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">The gold standard</span></div>
+    <h2 class="head">The randomized controlled trial (RCT)</h2>
     <figure class="diagram">
-      <svg viewBox="0 0 1000 220" role="img" aria-label="Survey pipeline">
-        <rect class="dg-box-teal" x="40"  y="70" width="250" height="90" rx="6"/>
-        <text class="dg-teal" x="165" y="108" text-anchor="middle" font-size="20" font-weight="700">Sampling</text>
-        <text class="dg-sub" x="165" y="135" text-anchor="middle" font-size="15">pick a fair group</text>
-        <rect class="dg-box-gold" x="375" y="70" width="250" height="90" rx="6"/>
-        <text class="dg-gold" x="500" y="108" text-anchor="middle" font-size="20" font-weight="700">Good questions</text>
-        <text class="dg-sub" x="500" y="135" text-anchor="middle" font-size="15">clear &amp; unbiased</text>
-        <rect class="dg-box-teal" x="710" y="70" width="250" height="90" rx="6"/>
-        <text class="dg-teal" x="835" y="108" text-anchor="middle" font-size="20" font-weight="700">Collection</text>
-        <text class="dg-sub" x="835" y="135" text-anchor="middle" font-size="15">paper, phone, online</text>
-        <path class="dg-arrow" d="M292 115 H373"/><polygon class="dg-arrow-head" points="373,115 361,108 361,122"/>
-        <path class="dg-arrow" d="M627 115 H708"/><polygon class="dg-arrow-head" points="708,115 696,108 696,122"/>
+      <svg viewBox="0 0 1000 260" role="img" aria-label="RCT flow">
+        <rect class="dg-box-b" x="30" y="95" width="200" height="70" rx="8"/>
+        <text class="dg-b" x="130" y="128" text-anchor="middle" font-size="18" font-weight="700">Participants</text>
+        <text class="dg-sub" x="130" y="150" text-anchor="middle" font-size="13">split at random</text>
+        <path class="dg-arrow" d="M232 130 H300"/><polygon class="dg-arrow-head" points="300,130 288,123 288,137"/>
+        <rect class="dg-box-a" x="305" y="40" width="250" height="70" rx="8"/>
+        <text class="dg-a" x="430" y="72" text-anchor="middle" font-size="17" font-weight="700">Treatment group</text>
+        <text class="dg-sub" x="430" y="94" text-anchor="middle" font-size="13">gets the program</text>
+        <rect class="dg-box" x="305" y="150" width="250" height="70" rx="8"/>
+        <text class="dg-label" x="430" y="182" text-anchor="middle" font-size="17" font-weight="700">Control group</text>
+        <text class="dg-sub" x="430" y="204" text-anchor="middle" font-size="13">does not</text>
+        <path class="dg-arrow" d="M557 75 H650"/><polygon class="dg-arrow-head" points="650,75 638,68 638,82"/>
+        <path class="dg-arrow" d="M557 185 H650"/><polygon class="dg-arrow-head" points="650,185 638,178 638,192"/>
+        <rect class="dg-box-b" x="655" y="95" width="290" height="70" rx="8"/>
+        <text class="dg-b" x="800" y="128" text-anchor="middle" font-size="18" font-weight="700">Compare outcomes</text>
+        <text class="dg-sub" x="800" y="150" text-anchor="middle" font-size="13">the difference = the effect</text>
       </svg>
-      <figcaption>Avoid "leading" questions; ask one clear thing at a time.</figcaption>
+      <figcaption>Random assignment makes the two groups alike &mdash; so any difference at the end points to the program.</figcaption>
     </figure>
   </section>
 
-  <!-- 12 — SECTION 5.4 -->
-  <section class="slide section">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Section 5.4</span></div>
-    <div class="num">5.4</div>
-    <div class="kicker">Is the Result Real?</div>
-    <h2>Statistical Analysis</h2>
-  </section>
-
-  <!-- 13 — WHAT STATS DO -->
+  <!-- 5 — KEY ELEMENTS -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.4 Statistics</span></div>
-    <h2 class="head">What statistics are for</h2>
-    <div class="lead">Statistics help us decide whether a result is <span class="hl">genuine</span> &mdash; or whether it could have happened <span class="hl">by luck</span>. You choose the right tool; you do not memorize the math.</div>
-  </section>
-
-  <!-- 14 — TEST PICKER -->
-  <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.4 Statistics</span></div>
-    <h2 class="head">Common tools &mdash; and when to use each</h2>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Building blocks</span></div>
+    <h2 class="head"><span class="small">The heart of the topic</span>Three building blocks</h2>
     <ul class="points">
-      <li><b>t-test</b><span class="plain">Compares the averages of two groups.</span></li>
-      <li><b>ANOVA</b><span class="plain">Compares three or more groups at once.</span></li>
-      <li><b>Regression</b><span class="plain">Examines how variables are related.</span></li>
-      <li><b>Chi-square</b><span class="plain">Tests patterns in counts and categories.</span></li>
+      <li><b>Randomized</b><span class="plain">People are placed into groups by chance, removing hidden bias.</span></li>
+      <li><b>Control group</b><span class="plain">A comparison group that does not receive the program.</span></li>
+      <li><b>Pre&ndash;post measures</b><span class="plain">Measure before and after, so change can be seen clearly.</span></li>
     </ul>
   </section>
 
-  <!-- 15 — SECTION 5.5 -->
-  <section class="slide section">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Section 5.5</span></div>
-    <div class="num">5.5</div>
-    <div class="kicker">Show, Don't Just Tell</div>
-    <h2>Data Visualization</h2>
-  </section>
-
-  <!-- 16 — VIZ DIAGRAM -->
+  <!-- 6 — VALIDITY DEFINE -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">5.5 Visualization</span></div>
-    <h2 class="head">Turn numbers into pictures</h2>
-    <div class="split">
-      <div class="col-text"><div class="lead">A clear chart communicates <span class="hl">faster</span> than a page of figures. Keep it simple; let the picture carry the message.</div></div>
-      <figure>
-        <svg viewBox="0 0 460 260" role="img" aria-label="Simple bar chart">
-          <line x1="60" y1="30" x2="60" y2="210" stroke="var(--muted)" stroke-width="2"/>
-          <line x1="60" y1="210" x2="420" y2="210" stroke="var(--muted)" stroke-width="2"/>
-          <rect class="dg-gold" x="95"  y="130" width="55" height="80"/>
-          <rect class="dg-teal" x="185" y="90"  width="55" height="120"/>
-          <rect class="dg-gold" x="275" y="60"  width="55" height="150"/>
-          <rect class="dg-teal" x="365" y="40"  width="40" height="170"/>
-          <text class="dg-sub" x="240" y="245" text-anchor="middle" font-size="15">progress over time</text>
-        </svg>
-        <figcaption>One glance tells the story.</figcaption>
-      </figure>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Trustworthiness</span></div>
+    <h2 class="head">Two kinds of validity</h2>
+    <div class="define">
+      <div class="term"><span class="word">Internal</span><span class="gloss">Are we sure the <b>program</b> caused the change &mdash; and not something else?<br><span style="color:var(--muted);font-style:italic;font-size:.85em">Plain terms: is the result real and not a fluke?</span></span></div>
+      <div class="term"><span class="word">External</span><span class="gloss">Would the result <b>hold true elsewhere</b>, with other people or places?<br><span style="color:var(--muted);font-style:italic;font-size:.85em">Plain terms: does it generalize beyond this one study?</span></span></div>
     </div>
   </section>
 
-  <!-- 17 — METHOD MAP -->
+  <!-- 7 — WHY RCT IS STRONG -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Synthesis</span></div>
-    <h2 class="head">Choosing the right method</h2>
-    <figure class="diagram">
-      <svg viewBox="0 0 1000 240" role="img" aria-label="Method selection">
-        <rect class="dg-box-gold" x="30"  y="80" width="280" height="90" rx="6"/>
-        <text class="dg-gold" x="170" y="118" text-anchor="middle" font-size="19" font-weight="700">Can you split by chance?</text>
-        <text class="dg-sub" x="170" y="146" text-anchor="middle" font-size="15">yes &rarr; experiment &middot; no &rarr; quasi</text>
-        <rect class="dg-box-teal" x="360" y="80" width="280" height="90" rx="6"/>
-        <text class="dg-teal" x="500" y="118" text-anchor="middle" font-size="19" font-weight="700">Need many opinions?</text>
-        <text class="dg-sub" x="500" y="146" text-anchor="middle" font-size="15">use a survey</text>
-        <rect class="dg-box-gold" x="690" y="80" width="280" height="90" rx="6"/>
-        <text class="dg-gold" x="830" y="118" text-anchor="middle" font-size="19" font-weight="700">Then: test + visualize</text>
-        <text class="dg-sub" x="830" y="146" text-anchor="middle" font-size="15">prove it &amp; show it</text>
-        <path class="dg-arrow" d="M312 125 H358"/><polygon class="dg-arrow-head" points="358,125 346,118 346,132"/>
-        <path class="dg-arrow" d="M642 125 H688"/><polygon class="dg-arrow-head" points="688,125 676,118 676,132"/>
-      </svg>
-      <figcaption>Match the method to the question you are asking.</figcaption>
-    </figure>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Significance</span></div>
+    <h2 class="head">Why this design is the strongest</h2>
+    <ul class="points">
+      <li><b>Isolates the cause</b><span class="plain">The control group rules out other explanations.</span></li>
+      <li><b>Removes bias</b><span class="plain">Random assignment keeps the groups fair and comparable.</span></li>
+      <li><b>Trusted evidence</b><span class="plain">Its results carry the most weight in evaluation.</span></li>
+    </ul>
   </section>
 
-  <!-- 18 — RECAP -->
+  <!-- 8 — RECAP -->
   <section class="slide">
-    <div class="kolophon"><span>EdD 714 &middot; Chapter 5</span><span class="right">Key takeaways</span></div>
+    <div class="kolophon"><span>714 &middot; 5.1</span><span class="right">Key takeaways</span></div>
     <h2 class="head">Key takeaways</h2>
     <div class="recap">
-      <div class="item"><div class="k">Experiments</div><div class="v">The fairest way to test cause and effect.</div></div>
-      <div class="item"><div class="k">Quasi &amp; surveys</div><div class="v">When chance isn't possible, or you must ask people.</div></div>
-      <div class="item"><div class="k">Statistics</div><div class="v">Decide if a result is real or luck.</div></div>
-      <div class="item"><div class="k">Visualization</div><div class="v">Make the numbers easy to understand.</div></div>
+      <div class="item"><div class="k">Purpose</div><div class="v">Prove a program truly causes a result.</div></div>
+      <div class="item"><div class="k">RCT</div><div class="v">Randomize, treat one group, compare to a control.</div></div>
+      <div class="item"><div class="k">Validity</div><div class="v">Internal = real; external = generalizable.</div></div>
+      <div class="item"><div class="k">Strength</div><div class="v">The most trusted way to show cause.</div></div>
     </div>
   </section>
 
-  <!-- 19 — CLOSE -->
+  <!-- 9 — CLOSE -->
   <section class="slide title">
-    <div class="program">EdD 714 &middot; Chapter 5 &middot; Project Development &amp; Evaluation</div>
+    <div class="program">714 &middot; Chapter 5 &middot; Topic 5.1</div>
     <h1>Thank you</h1>
     <div class="rule"></div>
-    <div class="sub">Letting the evidence speak.</div>
+    <div class="sub">Evidence we can trust.</div>
     <div class="by">Reporter: <b>Rosemarie Mayet Rizon</b></div>
   </section>
 
