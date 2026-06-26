@@ -1,0 +1,46 @@
+SPEAKER SCRIPT
+Cebu Technological University — Doctor of Education (EdD)
+Subject: Project Development and Evaluation (714)
+Chapter 5: Quantitative Research Methods in Project Evaluation
+Topic 5.1: Experimental Designs
+Reporter: Rosemarie Mayet Rizon
+
+
+HOW TO USE THIS SCRIPT
+Each part matches a slide. The ideas are at a doctoral level, but every term is explained in plain, everyday language. Speak naturally; you do not need to read it word for word.
+
+
+SLIDE 1 — TITLE
+Good morning, everyone. My report covers Topic 5.1 of Project Development and Evaluation — Experimental Designs. In short, this is about how we test whether a program truly causes the change we observe.
+
+
+SLIDE 2 — WHERE MY TOPIC SITS
+Let me first place my topic. Chapter 5 surveys many research methods — experimental designs, quasi-experimental designs, surveys, statistics, and data visualization. My report focuses only on the first — 5.1 — because it is the strongest design for proving cause and effect.
+
+
+SLIDE 3 — WHAT AN EXPERIMENTAL DESIGN IS
+So what is an experimental design? It is a research method that tests cause and effect by changing one thing on purpose and comparing the results against a group that was left unchanged. In plain terms: we try the program on one group, not on another, and see what differs.
+
+
+SLIDE 4 — THE RANDOMIZED CONTROLLED TRIAL
+The strongest form is the randomized controlled trial, or RCT. We take our participants and split them at random into two groups. One — the treatment group — receives the program. The other — the control group — does not. Then we compare their outcomes. Because they started out alike, any difference at the end points to the program.
+
+
+SLIDE 5 — THREE BUILDING BLOCKS
+There are three building blocks. Randomized — people are placed into groups by chance, which removes hidden bias. A control group — a comparison group that does not receive the program. And pre and post measures — we measure before and after, so the change can be seen clearly.
+
+
+SLIDE 6 — TWO KINDS OF VALIDITY
+We also judge a study by its validity, and there are two kinds. Internal validity asks: are we sure the program caused the change, and not something else — is the result real and not a fluke? External validity asks: would the result hold true elsewhere, with other people or places — does it generalize beyond this one study?
+
+
+SLIDE 7 — WHY THIS DESIGN IS THE STRONGEST
+Why is this the strongest design? Because it isolates the cause — the control group rules out other explanations. It removes bias — random assignment keeps the groups fair and comparable. And it produces trusted evidence — its results carry the most weight in evaluation.
+
+
+SLIDE 8 — KEY TAKEAWAYS
+To summarize. The purpose is to prove a program truly causes a result. The RCT does this by randomizing, treating one group, and comparing to a control. Validity comes in two forms — internal means real, external means generalizable. And this design is the most trusted way to show cause.
+
+
+SLIDE 9 — THANK YOU
+That concludes my report on Experimental Designs — evidence we can trust. Thank you, and I welcome your questions.
