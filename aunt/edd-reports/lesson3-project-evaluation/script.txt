@@ -18,29 +18,73 @@ SLIDE 2 — WHERE MY TOPIC SITS
 Let me first place my topic. Chapter 5 surveys many research methods — experimental designs, quasi-experimental designs, surveys, statistics, and data visualization. My report focuses only on the first — 5.1 — because it is the strongest design for proving cause and effect.
 
 
-SLIDE 3 — WHAT AN EXPERIMENTAL DESIGN IS
+SLIDE 3 — WHAT THIS REPORT WILL COVER
+Here is our roadmap. First, what an experimental design is. Second, the randomized controlled trial, step by step. Third, its building blocks — randomizing, the control group, and pre and post measures. And finally, validity, strengths, limits, and when to use it.
+
+
+SLIDE 4 — THE QUESTION IT ANSWERS
+Let me start with the question this method answers. Did our program cause the improvement — or would it have happened anyway? Experimental design is how we tell the difference between a real effect and a coincidence.
+
+
+SLIDE 5 — WHAT AN EXPERIMENTAL DESIGN IS
 So what is an experimental design? It is a research method that tests cause and effect by changing one thing on purpose and comparing the results against a group that was left unchanged. In plain terms: we try the program on one group, not on another, and see what differs.
 
 
-SLIDE 4 — THE RANDOMIZED CONTROLLED TRIAL
-The strongest form is the randomized controlled trial, or RCT. We take our participants and split them at random into two groups. One — the treatment group — receives the program. The other — the control group — does not. Then we compare their outcomes. Because they started out alike, any difference at the end points to the program.
+SLIDE 6 — THE RANDOMIZED CONTROLLED TRIAL
+The strongest form is the randomized controlled trial, or RCT. Let me walk through how it works.
 
 
-SLIDE 5 — THREE BUILDING BLOCKS
-There are three building blocks. Randomized — people are placed into groups by chance, which removes hidden bias. A control group — a comparison group that does not receive the program. And pre and post measures — we measure before and after, so the change can be seen clearly.
+SLIDE 7 — HOW AN RCT WORKS
+We take our participants and split them at random into two groups. One — the treatment group — receives the program. The other — the control group — does not. Then we compare their outcomes. Because they started out alike, any difference at the end points to the program.
 
 
-SLIDE 6 — TWO KINDS OF VALIDITY
-We also judge a study by its validity, and there are two kinds. Internal validity asks: are we sure the program caused the change, and not something else — is the result real and not a fluke? External validity asks: would the result hold true elsewhere, with other people or places — does it generalize beyond this one study?
+SLIDE 8 — WHY ASSIGN AT RANDOM?
+The first building block is random assignment. Why random? Because it spreads every hidden difference — age, ability, background — evenly across both groups. That way, the only real difference left between them is the program itself.
 
 
-SLIDE 7 — WHY THIS DESIGN IS THE STRONGEST
+SLIDE 9 — THE CONTROL GROUP
+The second building block is the control group — a comparison group that does not receive the program, kept alongside the treatment group. It shows us what would have happened without the program; it is the "what if we did nothing" picture.
+
+
+SLIDE 10 — PRE AND POST MEASUREMENT
+The third building block is pre and post measurement. We measure before the program — the starting point — then run the program, then measure again after. Comparing before and after lets us see the change clearly.
+
+
+SLIDE 11 — A SCHOOL EXAMPLE
+Here is a school example. Take one hundred pupils. Randomly split them: fifty join a new reading program, fifty keep the usual lessons. Test everyone before and after. If the program group improves more than the other, the program likely caused the gain.
+
+
+SLIDE 12 — INTERNAL AND EXTERNAL VALIDITY
+Now, how do we judge whether a study can be trusted? Through its validity, and there are two kinds.
+
+
+SLIDE 13 — INTERNAL VALIDITY: IS THE RESULT REAL?
+Internal validity asks: are we sure the program caused the change, and not something else? Strong internal validity means the result is real — not a fluke, and not caused by some hidden factor we missed.
+
+
+SLIDE 14 — EXTERNAL VALIDITY: DOES IT HOLD ELSEWHERE?
+External validity asks: would the result hold true elsewhere, with other people or in other places? Strong external validity means it generalizes — it is not just true for this one group in this one study.
+
+
+SLIDE 15 — THINGS THAT CAN WEAKEN VALIDITY
+A few things can weaken validity. Dropouts — people leaving the study can unbalance the groups. Too small a sample — a few people cannot represent everyone. And spillover — when the control group accidentally gets some of the program. Good design guards against all three.
+
+
+SLIDE 16 — WHY THIS DESIGN IS THE STRONGEST
 Why is this the strongest design? Because it isolates the cause — the control group rules out other explanations. It removes bias — random assignment keeps the groups fair and comparable. And it produces trusted evidence — its results carry the most weight in evaluation.
 
 
-SLIDE 8 — KEY TAKEAWAYS
+SLIDE 17 — WHEN IT IS HARD TO USE
+But let me be honest about its limits. Sometimes we cannot randomly withhold a program — it may be unfair to deny help to some, or simply impractical. In those cases, researchers turn to other designs, which the chapter covers from 5.2 onward.
+
+
+SLIDE 18 — WHEN TO CHOOSE AN EXPERIMENTAL DESIGN
+So when do we choose this design? When we need proof of cause, not just that two things move together. When we can assign people to groups fairly and ethically. And when the stakes are high — when a big decision rests on the strength of the evidence.
+
+
+SLIDE 19 — KEY TAKEAWAYS
 To summarize. The purpose is to prove a program truly causes a result. The RCT does this by randomizing, treating one group, and comparing to a control. Validity comes in two forms — internal means real, external means generalizable. And this design is the most trusted way to show cause.
 
 
-SLIDE 9 — THANK YOU
+SLIDE 20 — THANK YOU
 That concludes my report on Experimental Designs — evidence we can trust. Thank you, and I welcome your questions.

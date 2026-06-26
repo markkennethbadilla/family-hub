@@ -18,33 +18,73 @@ SLIDE 2 — WHERE MY TOPIC SITS
 Let me first place my topic. Module 5 has several parts — contextualization, localization, indigenous materials, and cultural responsiveness. My report focuses only on the first — 5.1, contextualization principles — because it is the foundation the others build on.
 
 
-SLIDE 3 — WHAT CONTEXTUALIZATION MEANS
+SLIDE 3 — WHAT THIS REPORT WILL COVER
+Here is our roadmap. First, what contextualization means. Second, why it makes learning stick. Third, the principles themselves, one by one. And finally, how to apply them, with examples and a few cautions.
+
+
+SLIDE 4 — WHAT CONTEXTUALIZATION MEANS
 So what is contextualization? It is designing and adapting learning resources so they connect to the learner's real environment — their place, culture, language, and daily experience. In plain terms: teaching with examples that learners already recognize from their own lives.
 
 
-SLIDE 4 — WHY CONTEXT MAKES LEARNING STICK
+SLIDE 5 — A CLOSE COUSIN: LOCALIZATION
+A quick clarification, because two terms are often confused. Contextualization connects content to the learner's lived experience and setting. Localization adapts to a specific place — its language, examples, and culture; that is topic 5.2. My focus is contextualization.
+
+
+SLIDE 6 — WHY CONTEXT MAKES LEARNING STICK
 Why does this work? Because when a new idea is tied to something a learner already knows, it becomes easier to understand, easier to remember, and easier to use in real life. We are building on familiar ground.
 
 
-SLIDE 5 — THE PRINCIPLES OF CONTEXTUALIZATION
-This is the heart of my topic — the principles themselves. Relevance: use examples from the learner's own community. Prior knowledge: build new lessons on what learners already understand. Authenticity: draw on real situations, not invented or distant ones. And meaning over memorization: aim for understanding they can apply, not just rote recall.
+SLIDE 7 — BUILDING ON WHAT IS ALREADY THERE
+Think of it as a bridge. On one side is what the learner already knows — their home, work, and community. On the other side is the new idea. Context is the bridge between them, so the new idea is understood and retained instead of feeling foreign.
 
 
-SLIDE 6 — THE SAME LESSON, TWO WAYS
+SLIDE 8 — THE PRINCIPLES OF CONTEXTUALIZATION
+Now to the heart of my topic — the principles themselves. There are four, and I will take them one at a time.
+
+
+SLIDE 9 — PRINCIPLE 1: RELEVANCE
+The first principle is relevance. We use examples drawn from the learner's own community and surroundings — the things they see and do every day. When the example is theirs, attention follows.
+
+
+SLIDE 10 — PRINCIPLE 2: PRIOR KNOWLEDGE
+The second is prior knowledge. We build each new lesson on what learners already understand, so the new idea has something to attach to. We start from the known and move to the unknown.
+
+
+SLIDE 11 — PRINCIPLE 3: AUTHENTICITY
+The third is authenticity. We draw on real situations the learner could actually meet — not invented or distant ones. Real problems feel worth solving.
+
+
+SLIDE 12 — PRINCIPLE 4: MEANING OVER MEMORIZATION
+The fourth is meaning over memorization. We aim for understanding learners can use in real life — not facts repeated by rote and soon forgotten. Meaning lasts; rote fades.
+
+
+SLIDE 13 — THE FOUR PRINCIPLES AT A GLANCE
+So, the four together. Relevance — examples from their own world. Prior knowledge — build on what they already know. Authenticity — real situations, not invented ones. And meaning — understanding they can apply.
+
+
+SLIDE 14 — THE SAME LESSON, TWO WAYS
 Let me show the difference. The abstract version says, "A train leaves City A at sixty kilometers per hour" — but many of our learners have never seen a train. The contextualized version says, "A jeepney travels from your barangay to town." It is the very same math, but now it is familiar and instantly relatable.
 
 
-SLIDE 7 — APPLYING THE PRINCIPLE
+SLIDE 15 — CONTEXTUALIZING ACROSS SUBJECTS
+It works in every subject. In math, we count using sari-sari store prices instead of textbook coins. In science, we study weather using our own rainy and dry seasons. In reading, we choose stories set in places and traditions the learners know.
+
+
+SLIDE 16 — APPLYING THE PRINCIPLE
 How do we apply it? First, know your learners — their place, language, work, and daily experiences. Second, find local examples — swap distant references for familiar ones. And third, adapt, do not dilute — keep the learning standard exactly; change only the wrapping around it.
 
 
-SLIDE 8 — WHY CONTEXTUALIZATION MATTERS
-Why does this matter? Three reasons. Engagement — learners pay attention to what feels relevant to them. Comprehension — familiar context lowers the barrier to new ideas. And equity — it meets learners where they are, whatever their background.
+SLIDE 17 — ONE IMPORTANT CAUTION
+And here is an important caution. Contextualizing changes the examples, not the standard. The learning goal stays exactly as high — we only make the path to it more familiar. We adapt; we never lower the bar.
 
 
-SLIDE 9 — KEY TAKEAWAYS
+SLIDE 18 — WHY CONTEXTUALIZATION MATTERS
+Why does this matter? Three reasons. Engagement — learners pay attention to what feels relevant. Comprehension — familiar context lowers the barrier to new ideas. And equity — it meets learners where they are, whatever their background.
+
+
+SLIDE 19 — KEY TAKEAWAYS
 To summarize. Contextualization connects learning to the learner's real world. Its principles are relevance, prior knowledge, authenticity, and meaning. The method is to adapt the example while keeping the standard. And the payoff is better engagement, comprehension, and equity.
 
 
-SLIDE 10 — THANK YOU
+SLIDE 20 — THANK YOU
 That concludes my report on Contextualization Principles — learning that starts where the learner stands. Thank you, and I welcome your questions.
