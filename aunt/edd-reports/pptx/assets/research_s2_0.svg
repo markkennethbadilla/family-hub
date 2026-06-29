@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="2600" height="650">
+<style>
+    .dg-box{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.13);stroke-width:1.5}
+    .dg-box-a{fill:#4ad6e622;stroke:#4ad6e6;stroke-width:2}
+    .dg-box-b{fill:#9a8cff22;stroke:#9a8cff;stroke-width:2}
+    .dg-label{fill:#eef2fb;font-family:Inter,Arial,sans-serif;font-weight:600}
+    .dg-sub{fill:#9fb0d4;font-family:Inter,Arial,sans-serif;font-weight:400}
+    .dg-a{fill:#4ad6e6}
+    .dg-b{fill:#9a8cff}
+    .dg-arrow{stroke:#4ad6e6;stroke-width:2.5;fill:none}
+    .dg-arrow-head{fill:#4ad6e6}
+  
+text{font-family:Inter,Arial,sans-serif}</style>
+<rect x="0" y="0" width="1000" height="250" fill="#0a1124"/>
+
+        <rect class="dg-box-a" x="40"  y="60" width="280" height="100" rx="8"></rect>
+        <text class="dg-a" x="180" y="100" text-anchor="middle" font-size="20" font-weight="700">5.1 Experimental</text>
+        <text class="dg-sub" x="180" y="130" text-anchor="middle" font-size="15">designs &mdash; my focus</text>
+        <rect class="dg-box" x="350" y="68" width="150" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="425" y="106" text-anchor="middle" font-size="14" font-weight="600">5.2 Quasi-exp.</text>
+        <rect class="dg-box" x="520" y="68" width="120" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="580" y="106" text-anchor="middle" font-size="14" font-weight="600">5.3 Surveys</text>
+        <rect class="dg-box" x="660" y="68" width="140" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="730" y="106" text-anchor="middle" font-size="14" font-weight="600">5.4 Statistics</text>
+        <rect class="dg-box" x="820" y="68" width="140" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="890" y="106" text-anchor="middle" font-size="14" font-weight="600">5.5 Data viz</text>
+      
+</svg>

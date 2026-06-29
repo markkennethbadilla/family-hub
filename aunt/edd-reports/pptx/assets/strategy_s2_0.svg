@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="2600" height="598">
+<style>
+    .dg-box{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.13);stroke-width:1.5}
+    .dg-box-a{fill:#e7b24a22;stroke:#e7b24a;stroke-width:2}
+    .dg-box-b{fill:#57c79a22;stroke:#57c79a;stroke-width:2}
+    .dg-label{fill:#f3f1ea;font-family:Inter,Arial,sans-serif;font-weight:600}
+    .dg-sub{fill:#aebfb6;font-family:Inter,Arial,sans-serif;font-weight:400}
+    .dg-a{fill:#e7b24a}
+    .dg-b{fill:#57c79a}
+    .dg-arrow{stroke:#e7b24a;stroke-width:2.5;fill:none}
+    .dg-arrow-head{fill:#e7b24a}
+  
+text{font-family:Inter,Arial,sans-serif}</style>
+<rect x="0" y="0" width="1000" height="230" fill="#07241d"/>
+
+        <rect class="dg-box-a" x="40"  y="70" width="290" height="100" rx="8"></rect>
+        <text class="dg-a" x="185" y="112" text-anchor="middle" font-size="22" font-weight="700">4.1 Mission</text>
+        <text class="dg-sub" x="185" y="142" text-anchor="middle" font-size="15">why we exist &mdash; my focus</text>
+        <rect class="dg-box" x="370" y="78" width="270" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="505" y="116" text-anchor="middle" font-size="19" font-weight="600">4.2 Strategic goals</text>
+        <text class="dg-sub" x="505" y="142" text-anchor="middle" font-size="14">(later topic)</text>
+        <rect class="dg-box" x="680" y="78" width="270" height="84" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="815" y="116" text-anchor="middle" font-size="19" font-weight="600">4.3 KPIs</text>
+        <text class="dg-sub" x="815" y="142" text-anchor="middle" font-size="14">(later topic)</text>
+      
+</svg>

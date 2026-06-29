@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="2600" height="598">
+<style>
+    .dg-box{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.13);stroke-width:1.5}
+    .dg-box-a{fill:#e8b54b22;stroke:#e8b54b;stroke-width:2}
+    .dg-box-b{fill:#c98bd022;stroke:#c98bd0;stroke-width:2}
+    .dg-label{fill:#f5eef2;font-family:Inter,Arial,sans-serif;font-weight:600}
+    .dg-sub{fill:#c4abc6;font-family:Inter,Arial,sans-serif;font-weight:400}
+    .dg-a{fill:#e8b54b}
+    .dg-b{fill:#c98bd0}
+    .dg-arrow{stroke:#e8b54b;stroke-width:2.5;fill:none}
+    .dg-arrow-head{fill:#e8b54b}
+  
+text{font-family:Inter,Arial,sans-serif}</style>
+<rect x="0" y="0" width="1000" height="230" fill="#1c0f1f"/>
+
+        <rect class="dg-box" x="30"  y="92" width="190" height="76" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="125" y="126" text-anchor="middle" font-size="15" font-weight="600">11.1 Values</text>
+        <text class="dg-sub" x="125" y="148" text-anchor="middle" font-size="13">&amp; ethics</text>
+        <rect class="dg-box-a" x="250" y="80" width="250" height="100" rx="8"></rect>
+        <text class="dg-a" x="375" y="120" text-anchor="middle" font-size="19" font-weight="700">11.2 Principles</text>
+        <text class="dg-sub" x="375" y="148" text-anchor="middle" font-size="14">of ethics &mdash; my focus</text>
+        <rect class="dg-box" x="530" y="92" width="190" height="76" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="625" y="126" text-anchor="middle" font-size="15" font-weight="600">11.3 Values-based</text>
+        <text class="dg-sub" x="625" y="148" text-anchor="middle" font-size="13">leadership</text>
+        <rect class="dg-box" x="750" y="92" width="210" height="76" rx="8" opacity="0.5"></rect>
+        <text class="dg-sub" x="855" y="126" text-anchor="middle" font-size="15" font-weight="600">11.4 Good</text>
+        <text class="dg-sub" x="855" y="148" text-anchor="middle" font-size="13">governance</text>
+      
+</svg>

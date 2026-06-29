@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="2600" height="598">
+<style>
+    .dg-box{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.13);stroke-width:1.5}
+    .dg-box-a{fill:#e7b24a22;stroke:#e7b24a;stroke-width:2}
+    .dg-box-b{fill:#57c79a22;stroke:#57c79a;stroke-width:2}
+    .dg-label{fill:#f3f1ea;font-family:Inter,Arial,sans-serif;font-weight:600}
+    .dg-sub{fill:#aebfb6;font-family:Inter,Arial,sans-serif;font-weight:400}
+    .dg-a{fill:#e7b24a}
+    .dg-b{fill:#57c79a}
+    .dg-arrow{stroke:#e7b24a;stroke-width:2.5;fill:none}
+    .dg-arrow-head{fill:#e7b24a}
+  
+text{font-family:Inter,Arial,sans-serif}</style>
+<rect x="0" y="0" width="1000" height="230" fill="#07241d"/>
+
+        <rect class="dg-box-b" x="40"  y="50" width="270" height="120" rx="8"></rect>
+        <text class="dg-b" x="175" y="100" text-anchor="middle" font-size="26" font-weight="700">WHO</text>
+        <text class="dg-sub" x="175" y="135" text-anchor="middle" font-size="17">do we serve?</text>
+        <rect class="dg-box-a" x="365" y="50" width="270" height="120" rx="8"></rect>
+        <text class="dg-a" x="500" y="100" text-anchor="middle" font-size="26" font-weight="700">WHAT</text>
+        <text class="dg-sub" x="500" y="135" text-anchor="middle" font-size="17">do we do for them?</text>
+        <rect class="dg-box-b" x="690" y="50" width="270" height="120" rx="8"></rect>
+        <text class="dg-b" x="825" y="100" text-anchor="middle" font-size="26" font-weight="700">WHY</text>
+        <text class="dg-sub" x="825" y="135" text-anchor="middle" font-size="17">does it matter?</text>
+      
+</svg>

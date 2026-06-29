@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="2600" height="676">
+<style>
+    .dg-box{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.13);stroke-width:1.5}
+    .dg-box-a{fill:#4ad6e622;stroke:#4ad6e6;stroke-width:2}
+    .dg-box-b{fill:#9a8cff22;stroke:#9a8cff;stroke-width:2}
+    .dg-label{fill:#eef2fb;font-family:Inter,Arial,sans-serif;font-weight:600}
+    .dg-sub{fill:#9fb0d4;font-family:Inter,Arial,sans-serif;font-weight:400}
+    .dg-a{fill:#4ad6e6}
+    .dg-b{fill:#9a8cff}
+    .dg-arrow{stroke:#4ad6e6;stroke-width:2.5;fill:none}
+    .dg-arrow-head{fill:#4ad6e6}
+  
+text{font-family:Inter,Arial,sans-serif}</style>
+<rect x="0" y="0" width="1000" height="260" fill="#0a1124"/>
+
+        <rect class="dg-box-b" x="30" y="95" width="200" height="70" rx="8"></rect>
+        <text class="dg-b" x="130" y="128" text-anchor="middle" font-size="18" font-weight="700">Participants</text>
+        <text class="dg-sub" x="130" y="150" text-anchor="middle" font-size="13">split at random</text>
+        <path class="dg-arrow" d="M232 130 H300"></path><polygon class="dg-arrow-head" points="300,130 288,123 288,137"></polygon>
+        <rect class="dg-box-a" x="305" y="40" width="250" height="70" rx="8"></rect>
+        <text class="dg-a" x="430" y="72" text-anchor="middle" font-size="17" font-weight="700">Treatment group</text>
+        <text class="dg-sub" x="430" y="94" text-anchor="middle" font-size="13">gets the program</text>
+        <rect class="dg-box" x="305" y="150" width="250" height="70" rx="8"></rect>
+        <text class="dg-label" x="430" y="182" text-anchor="middle" font-size="17" font-weight="700">Control group</text>
+        <text class="dg-sub" x="430" y="204" text-anchor="middle" font-size="13">does not</text>
+        <path class="dg-arrow" d="M557 75 H650"></path><polygon class="dg-arrow-head" points="650,75 638,68 638,82"></polygon>
+        <path class="dg-arrow" d="M557 185 H650"></path><polygon class="dg-arrow-head" points="650,185 638,178 638,192"></polygon>
+        <rect class="dg-box-b" x="655" y="95" width="290" height="70" rx="8"></rect>
+        <text class="dg-b" x="800" y="128" text-anchor="middle" font-size="18" font-weight="700">Compare outcomes</text>
+        <text class="dg-sub" x="800" y="150" text-anchor="middle" font-size="13">the difference = the effect</text>
+      
+</svg>
